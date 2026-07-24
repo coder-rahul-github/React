@@ -1,12 +1,15 @@
-import Button from "./button";
+
+import Button from "./Button";
+import Card from "./Card";
 
 function App() {
 
   return (
     <>
-      <h1 className='text-5xl text-blue-500'>Hello World</h1>
-      <Button />
-
+      <h1>Student Card</h1>
+      <Card></Card>
+      <Card/>
+    
     </>
   );
 }

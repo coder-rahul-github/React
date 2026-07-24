@@ -1,9 +1,8 @@
 
 
 function Button() {
-    return (
+    return
         <button>Click Me</button>
-    )
 }
 
 export default Button
