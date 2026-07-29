@@ -1,13 +1,15 @@
-import { useState } from "react";
+import Button from "./components/Button";
+
+//import { useState } from "react";
 
 function App() {
-  const[count,setCount]=useState(0);
-  function inc(){
-    setCount(count+1);
-  }
-  function dec(){
-    setCount(count-1);
-  }
+  // const[count,setCount]=useState(0);
+  // function inc(){
+  //   setCount(count+1);
+  // }
+  // function dec(){
+  //   setCount(count-1);
+  // }
 
   return (
     <>
@@ -16,9 +18,11 @@ function App() {
       <button className="border-2 bg-green-500 px-5 rounded-full" onClick={inc}>Increase +</button>
       <break> </break>
       <button className="border-2 bg-red-500 px-5 rounded-full" onClick={dec}>decrease -</button> */}
-      <button></button>
+      <Button text="Primary" type="Primary"/>
+      <Button text="Secondary" type="Secondary"/>
+      <Button text="no where" />
     </>
-  );
+  )
 }
 
 export default App;
